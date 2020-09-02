@@ -169,9 +169,9 @@
               <Control xsi:type="MobileButton" id="TaskPaneBtn">
                 <Label resid="TaskpaneButton.Label" />
                 <Icon xsi:type="bt:MobileIconList">
-                  <bt:Image size="25" scale="1" resid="Icon.16x16" />
-                  <bt:Image size="25" scale="2" resid="Icon.16x16" />
-                  <bt:Image size="25" scale="3" resid="Icon.16x16" />
+                  <bt:Image size="25" scale="1" resid="Icon.32x32" />
+                  <bt:Image size="25" scale="2" resid="Icon.32x32" />
+                  <bt:Image size="25" scale="3" resid="Icon.32x32" />
 
                   <bt:Image size="32" scale="1" resid="Icon.32x32" />
                   <bt:Image size="32" scale="2" resid="Icon.32x32" />
