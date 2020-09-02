@@ -7,6 +7,6 @@
                     Office.onReady(function() {
                     //element1.innerHTML = "initialize1";
                     //document.write("test");
-                    console.log("test");
+                    console.log("test_xxxxxxxxxx");
                 });
             });
