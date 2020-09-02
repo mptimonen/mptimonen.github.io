@@ -17,8 +17,8 @@
 
 <script type="text/javascript">
 
-        var element1 = document.getElementById(id);
-        var element2 = document.getElementById(id);
+        var element1 = document.getElementById('a');
+        var element2 = document.getElementById('b');
 
         element1.innerHTML = "aaaa";
 
@@ -29,8 +29,8 @@
 
 
     Office.initialize = reason =>{
-        var element1 = document.getElementById(id);
-        var element2 = document.getElementById(id);
+        var element1 = document.getElementById('a');
+        var element2 = document.getElementById('b');
         element1.innerHTML = "REST URL: " + Office.context.mailbox.restUrl;
         element1.innerHTML = "EWS URL: " + Office.context.mailbox.ewsUrl;
         console.log("REST URL: " + Office.context.mailbox.restUrl);
