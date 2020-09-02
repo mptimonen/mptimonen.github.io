@@ -5,6 +5,7 @@
                     //var element1 = document.getElementById('a');
         
                     //element1.innerHTML = "initialize1";
-                    document.write("test");
+                    //document.write("test");
+                    console.log("test");
                 });
             });
