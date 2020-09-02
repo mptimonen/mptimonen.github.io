@@ -8,6 +8,16 @@
             <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
             <script type="text/javascript">
             document.getElementById('a').innerHTML="testi 1234";
+
+            Office.initialize = reason =>{
+                element1.innerHTML = "initialize1";
+                var element1 = document.getElementById('a');
+                var element2 = document.getElementById('b');
+                element1.innerHTML = "REST URL: " + Office.context.mailbox.restUrl;
+                element1.innerHTML = "EWS URL: " + Office.context.mailbox.ewsUrl;
+                console.log("REST URL: " + Office.context.mailbox.restUrl);
+                console.log("EWS URL: " + Office.context.mailbox.ewsUrl);
+            };
             </script>
       </head>
 
@@ -31,6 +41,7 @@
 
 
     Office.initialize = reason =>{
+        element1.innerHTML = "initialize";
         var element1 = document.getElementById('a');
         var element2 = document.getElementById('b');
         element1.innerHTML = "REST URL: " + Office.context.mailbox.restUrl;
