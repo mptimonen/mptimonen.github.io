@@ -182,7 +182,7 @@
                   <bt:Image size="48" scale="3" resid="Icon.32x32" />
                 </Icon>
                 <Action xsi:type="ShowTaskpane">
-                  <SourceLocation resid="messageReadTaskPaneUrl" />
+                  <SourceLocation resid="messageReadTaskPaneUrl" > </SourceLocation>
                   
                 </Action>
               </Control>
