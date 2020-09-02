@@ -16,7 +16,7 @@
                             var element1 = document.getElementById('a');
                             var element2 = document.getElementById('b');
                             element1.innerHTML = "EWS URL: " + Office.context.mailbox.ewsUrl;
-                            element1.innerHTML = "REST URL: " + Office.context.mailbox.restUrl;
+                            element2.innerHTML = "REST URL: " + Office.context.mailbox.restUrl;
                             
                             console.log("REST URL: " + Office.context.mailbox.restUrl);
                             console.log("EWS URL: " + Office.context.mailbox.ewsUrl);
